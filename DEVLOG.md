@@ -1,6 +1,7 @@
 - add general poll that checks if the selected job is open
   - looks for selector: `.zds-scrollbar h2` then verify it's right, it should say "Job description" inside
   - that means the right thing is open, some links are external but this extension won't apply there
+- there is a different view if you're looking at search box results, has left sidebar
 
 ### 08/03/2024
 

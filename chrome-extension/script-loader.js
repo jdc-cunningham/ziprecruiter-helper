@@ -1,6 +1,6 @@
 const scriptsToLoad = [
-  'block.js',
-  'lijfce.js'
+  'meta.js',
+  'zr.js'
 ];
 
 scriptsToLoad.forEach(script => {

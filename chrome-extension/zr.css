@@ -1,0 +1,47 @@
+.lijfce-btns {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  float: right; /* oof */
+  z-index: 1;
+}
+
+.lijfce-btns__block,
+.lijfce-btns__applied {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 1.25rem;
+}
+
+.lijfce-btns__block {
+  background-color: firebrick;
+}
+
+.lijfce-btns__applied {
+  background-color: green;
+  margin-left: 0.25rem;
+  font-weight: bold;
+}
+
+.lijfce__stats-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: auto;
+  height: auto;
+  background-color: cornflowerblue;
+  color: white;
+  z-index: 99;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-top: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

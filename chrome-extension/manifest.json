@@ -16,7 +16,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.ziprecruiter.com/jobseeker/home?*"],
+      "matches": [
+        "https://www.ziprecruiter.com/jobseeker/home?*",
+        "https://www.ziprecruiter.com/jobs-search?*"
+      ],
       "run_at": "document_start",
       "js": ["script-loader.js"],
       "css": ["zr.css"]
